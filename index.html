@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>twitter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="text-[#D9D9D9] font-[Poppins,_sans-serif;] bg-[#000000] overflow-y-auto">
+    <div class="h-screen bg-[#000000] flex gap-x-[10px] container xl mx-auto justify-center">
+      <aside class="pl-[12px] gap-y-[8px] w-[275px] whitespace-nowrap">
+        <a href="./index.html">
+          <div class="mt-[4px] p-[13px]">
+            <i class="fa-brands fa-twitter text-[24px]"></i>
+          </div>
+        </a>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Home-Fill.svg"
+              alt=""
+            />
+          </figure>
+         <a href="#"> 
+          <div>
+          <span class="font-[700] text-[19px]">Home</span>
+        </div>
+      </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Explore.svg"
+              alt=""
+            />
+          </figure>
+          <a href="#">
+            <div>
+              <span class="font-[700] text-[19px]">Explore</span>
+            </div>
+          </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Notifications.svg"
+              alt=""
+            />
+          </figure>
+         <a href="#">
+          <div>
+            <span class="font-[700] text-[19px]">Notifications</span>
+          </div>
+         </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Messages.svg"
+              alt=""
+            />
+          </figure>
+          <a href="#">
+            <div>
+              <span class="font-[700] text-[19px]">Messages</span>
+            </div>
+          </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Bookmarks.svg"
+              alt=""
+            />
+          </figure>
+        <a href="#">
+          <div>
+            <span class="font-[700] text-[19px]">Bookmarks</span>
+          </div>
+        </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img class="size-full object-cover" src="./img/Lists.svg" alt="" />
+          </figure>
+         <a href="#">
+          <div>
+            <span class="font-[700] text-[19px]">Lists</span>
+          </div>
+         </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Profile.svg"
+              alt=""
+            />
+          </figure>
+         <a href="#">
+          <div>
+            <span class="font-[700] text-[19px]">Profile</span>
+          </div>
+         </a>
+        </div>
+        <div class="flex items-center gap-x-[20px] p-[12px]">
+          <figure class="size-[24px]">
+            <img class="size-full object-cover" src="./img/More.svg" alt="" />
+          </figure>
+         <a href="#">
+          <div>
+            <span class="font-[700] text-[19px]">More</span>
+          </div>
+         </a>
+        </div>
+        <button class="bg-[#1D9BF0] p-[16px_86px] rounded-[52px]">Tweet</button>
+        <div class="flex items-center gap-x-[12px] mt-[10%]">
+          <figure class="size-[40px]">
+            <img
+              class="size-full object-cover rounded-full"
+              src="https://s3-alpha-sig.figma.com/img/d342/5050/6f2010d70ccdf32b458a7f0d49da64a4?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VL1EYnrKeibqPBtsWrT5fPTeIiYl2~C0mx3dZq6AIK7-ioyYXB~5A5WzjkM4uIjJtyecQUcE3KaUjAWyVGkYYEvaQTQMXg8ofKZ7eNtk37umsdaBeO8pgsRk5-XCk7l3yBaS-~WDm2tTRWTy0SoohZ8ChbmC5rIeVHkiA84VhUaOJBTet6MSPhUwrbixvKXAOPceG3fJx2HJ~JhyQHbG1HapxrkS7KjeMQwDRBKXzHlHQV2D-1uKymoFdFgzR0TDc9Uyf2NytueXOa4fTlA0ctF44pu-6McyhhLUy1jZn97NJNC4n5qM~acGak9aPNQbRxxHUcoPEHEmzHsGUbkzXA__"
+              alt=""
+            />
+          </figure>
+          <div>
+           <a href="#">
+            <span>Bradley Ortiz</span>
+            <i class="fa-solid fa-lock size-[24px]"></i>
+            <p>@bradley_</p>
+           </a>
+          </div>
+        </div>
+      </aside>
+      <main class="w-[600px]">
+        <div
+          class="flex items-center justify-between border-l-2 border-r-2 border-[#2F3336] pb-[15px] p-[15px]"
+        >
+          <p class="font-[700] text-[19px]">Home</p>
+          <figure class="size-[24px]">
+            <img
+              class="size-full object-cover"
+              src="./img/Top-Tweets.png"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="p-4 shadow-md border border-[#2F3336]">
+          <div class="flex items-start">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/d342/5050/6f2010d70ccdf32b458a7f0d49da64a4?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VL1EYnrKeibqPBtsWrT5fPTeIiYl2~C0mx3dZq6AIK7-ioyYXB~5A5WzjkM4uIjJtyecQUcE3KaUjAWyVGkYYEvaQTQMXg8ofKZ7eNtk37umsdaBeO8pgsRk5-XCk7l3yBaS-~WDm2tTRWTy0SoohZ8ChbmC5rIeVHkiA84VhUaOJBTet6MSPhUwrbixvKXAOPceG3fJx2HJ~JhyQHbG1HapxrkS7KjeMQwDRBKXzHlHQV2D-1uKymoFdFgzR0TDc9Uyf2NytueXOa4fTlA0ctF44pu-6McyhhLUy1jZn97NJNC4n5qM~acGak9aPNQbRxxHUcoPEHEmzHsGUbkzXA__"
+              alt="User Avatar"
+              class="w-12 h-12 rounded-full mr-4"
+            />
+            <textarea
+              placeholder="What's happening?"
+              class="w-full bg-transparent border-none focus:outline-none text-lg resize-none h-[48px]"
+            ></textarea>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <div class="flex text-blue-500">
+              <button class="p-[0px]"><i class="fas fa-image"></i></button>
+              <button class="p-[7px]"><i class="fas fa-gif"></i></button>
+              <button class="p-[7px]"><i class="fas fa-poll"></i></button>
+              <button class="p-[7px]"><i class="fas fa-smile"></i></button>
+              <button class="p-[7px]">
+                <i class="fas fa-calendar-alt"></i>
+              </button>
+            </div>
+            <button
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none"
+            >
+              Tweet
+            </button>
+          </div>
+        </div>
+        <div class="flex items-start gap-x-[12px] p-[15px]  border border-[#2F3336]">
+          <figure class="size-[48px]">
+            <img
+              class="size-full shrink-0 object-cover rounded-full"
+              src="https://s3-alpha-sig.figma.com/img/4a83/e3af/cc0254938a0f98dd14b210b1493f71c5?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QemOxfA0ylaz9DsoqLpuudG9rvkiwD09WafifbISEgZ4n2uLmkJ2z58Kbgv~RZsNXsbOxJ1rOSuAJ8MARnHlIGnHr9rD2xcNtckCBQmLcznkk2QseZASwEL9EMFq0UuzkRoPEw9--P4hdr92pAc5d2Kn4lLHzc9qr4iqYcCqeH0PD0ZrGokEbR07ia37KiKApjVhhTCkhEuWB9l1L2RC1sKmhoivzd23fRBtx5v3XU~944sAE-BhXSzVYm7NI5RvuBEpJ7S48MK9ad8IzX1N78L50p~da6UNOkc1IsB2ktOoJDvL78oiJ-dD4oxHSqpmWiBYHDpr-hD9X5Cl1ZyxiQ__"
+              alt=""
+            />
+          </figure>
+          <div class="w-[500px]">
+            <div class="flex items-center gap-x-[4px]">
+              <p class="font-bold text-[15px]">CNN</p>
+              <i class="fa-solid fa-circle-check text-[15px]"></i>
+              <p class="font-[300] text-[#6E767D] text-[14px] gap-x-[4px]">
+                <span>@CNN</span>
+                <span>.</span>
+                <span>7m</span>
+              </p>
+            </div>
+            <p class="font-[400] text-[15px] mb-[12px]">
+              President Joe Biden touted a new agreement reached with the
+              European Union to ease Trump-era tariffs on aluminum and steel as
+              a "major breakthrough" that would serve to both strengthen the US
+              steel industry and combat the global climate crisis.
+            </p>
+            <div
+              class="flex items-center gap-x-[50px] text-[#6E767D] font-[300] text-[13px]"
+            >
+              <div class="flex items-center gap-x-[20px]">
+                <figure class="size-[34px] p-[7px]">
+                  <img class="size-[20px]" src="./img/Reply.svg" alt="" />
+                </figure>
+                <span>19</span>
+              </div>
+              <div class="flex items-center gap-x-[20px]">
+                <figure class="size-[34px] p-[7px]">
+                  <img class="size-[20px]" src="./img/Retweet.svg" alt="" />
+                </figure>
+                <span>48</span>
+              </div>
+              <div class="flex items-center gap-x-[20px]">
+                <figure class="size-[34px] p-[7px]">
+                  <img class="size-[20px]" src="./img/React.svg" alt="" />
+                </figure>
+                <span>482</span>
+              </div>
+              <div class="flex items-center gap-x-[20px]">
+                <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Share.svg" alt="" />
+                  </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="flex items-start gap-x-[12px] p-[15px] border border-[#2F3336]">
+            <figure class="size-[48px]">
+              <img
+                class="size-full shrink-0 object-cover rounded-full"
+                src="https://s3-alpha-sig.figma.com/img/4f06/a16a/c1cdbe6b530999d2dc7ebcc3d95d6cf1?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R2shtG4-ZBBCuCqa~5WRwGlBRiFKb4NidrkJTY9g1Ry9SgRTeTM~m6XcOcFoKoZ7vNB6Pec9O~Ig3biqL6PDtRqpnxiuUkt7P4mpAfqcnWXs27hWJmBradeNPcSXZIKpjx3EDh80n0GlmQ3QAFXebMUeKROysrTlSGI1zqvXH-hl8c1vogYie5Zw~K9YFpeKoYGM9oRyIS~7QiKoEpgGaIsJ~lQGT5OWL6Qe36K76isnWSjfynMKM~6eMnr1DIx8MurPbdWSRZGEwmGt7cmFou3xuQavY0E667hYaaBJVhnPg7RKqV2ovEwvArCobGozu64FZdQQa62so7nxXewLEw__"
+                alt=""
+              />
+            </figure>
+            <div class="w-[500px]">
+              <div class="flex items-center gap-x-[4px]">
+                <p class="font-bold text-[15px]">The New York Times</p>
+                <i class="fa-solid fa-circle-check text-[15px]"></i>
+                <p class="font-[300] text-[#6E767D] text-[14px] gap-x-[4px]">
+                  <span>@nytimes</span>
+                  <span>.</span>
+                  <span>2h</span>
+                </p>
+              </div>
+              <p class="font-[400] text-[15px] mb-[12px]">
+                Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land
+              </p>
+              <figure class="w-[504px] h-[283px] mb-[13px]">
+                <img class="w-[504px] h-[283px] object-cover rounded-[36px]" src="https://s3-alpha-sig.figma.com/img/abef/44e1/3a4fb27ac90553e822ae5b05f1e3bc39?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lp-nSb4EscCQPRSiIQYkoN7WXQJuNKHgRnYjXysPEv54Qk-o32QuhbeJizCMesPcEn-8-KIkaCbQbzi1lus6AFznt6zCvPtGP30ta16xfsNZztWGaawiogS0rSe2k1YYnJp0pspaWlH4IFBkotwWd~cZ7Oh0IWV5ZVYqnjYP8rmg5~xr0rFhJR3cVIZP2lGRa3hnGPGo7hlpU4VF3L~JQqUmWtvX23O35y8O8-e9Vapp8pEoo1I7h4kD0~LjlK2lwSmlnY5UbvqFzO8usCfz7~OMzpPVqZdVjk~wFRZFMZl1SrLxmxL6Q4BZYCY8PywS5E1uJOkv0OW6lBm9uo9cIA__" alt="">
+              </figure>
+              <div
+                class="flex items-center gap-x-[50px] text-[#6E767D] font-[300] text-[13px]"
+              >
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Reply.svg" alt="" />
+                  </figure>
+                  <span>6.8K</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Retweet.svg" alt="" />
+                  </figure>
+                  <span>36.6K</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/React.svg" alt="" />
+                  </figure>
+                  <span>36.6K</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                      <img class="size-[20px]" src="./img/Share.svg" alt="" />
+                    </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-start gap-x-[12px] p-[15px] border border-[#2F3336]">
+            <figure class="size-[48px]">
+              <img
+                class="size-full shrink-0 object-cover rounded-full"
+                src="https://s3-alpha-sig.figma.com/img/a377/0904/9243261c9d3d1fa6dead9bc132ea171f?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gkCyHQRHto3bevL0WJX-hbi7t7xzEDsfxXTnS0~nTJmaj8vH-sn~kmzVLIrgDeKYh9TlECficfAehk2bV3qjRxp7WKBIJSgtLEg2h8KgrawasEzn638jS86rS~o39gZpLqqtaxPMs0~KHZWyiGK3d59mUwUXU95oQeARvdaR21YrruM3Z6TRviq1eDVal79P4G~PzLjHowSLelDbsedHCtwy1DB6PpzDZQI2bP15mOPrdV3wVo5SQca~rsNcbpBUnyWhgEllAKWhapkeu6AgZKy13WUf432ARljrZlI-BbMF2Llj9H3JY0oXPzw-eKPunSEjk3qY-MDUY~l9BS2lpg__"
+                alt=""
+              />
+            </figure>
+            <div class="w-[500px]">
+              <div class="flex items-center gap-x-[4px]">
+                <p class="font-bold text-[15px]">Twitter</p>
+                <i class="fa-solid fa-circle-check text-[15px]"></i>
+                <p class="font-[300] text-[#6E767D] text-[14px] gap-x-[4px]">
+                  <span>@Twitter</span>
+                  <span>.</span>
+                  <span>Oct 4 </span>
+                </p>
+              </div>
+              <p class="font-[400] text-[15px] mb-[12px]">
+                hello literally everyone
+              </p>
+              <div
+                class="flex items-center gap-x-[50px] text-[#6E767D] font-[300] text-[13px]"
+              >
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Reply.svg" alt="" />
+                  </figure>
+                  <span>57</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Retweet.svg" alt="" />
+                  </figure>
+                  <span>144</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/React.svg" alt="" />
+                  </figure>
+                  <span>184</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                      <img class="size-[20px]" src="./img/Share.svg" alt="" />
+                    </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-start gap-x-[12px] p-[15px] border border-[#2F3336]">
+            <figure class="size-[48px]">
+              <img
+                class="size-full shrink-0 object-cover rounded-full"
+                src="https://s3-alpha-sig.figma.com/img/a377/0904/9243261c9d3d1fa6dead9bc132ea171f?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gkCyHQRHto3bevL0WJX-hbi7t7xzEDsfxXTnS0~nTJmaj8vH-sn~kmzVLIrgDeKYh9TlECficfAehk2bV3qjRxp7WKBIJSgtLEg2h8KgrawasEzn638jS86rS~o39gZpLqqtaxPMs0~KHZWyiGK3d59mUwUXU95oQeARvdaR21YrruM3Z6TRviq1eDVal79P4G~PzLjHowSLelDbsedHCtwy1DB6PpzDZQI2bP15mOPrdV3wVo5SQca~rsNcbpBUnyWhgEllAKWhapkeu6AgZKy13WUf432ARljrZlI-BbMF2Llj9H3JY0oXPzw-eKPunSEjk3qY-MDUY~l9BS2lpg__"
+                alt=""
+              />
+            </figure>
+            <div class="w-[500px]">
+              <div class="flex items-center gap-x-[4px]">
+                <p class="font-bold text-[15px]">Twitter</p>
+                <i class="fa-solid fa-circle-check text-[15px]"></i>
+                <p class="font-[300] text-[#6E767D] text-[14px] gap-x-[4px]">
+                  <span>@Twitter</span>
+                  <span>.</span>
+                  <span>Oct 4 </span>
+                </p>
+              </div>
+              <p class="font-[400] text-[15px] mb-[12px]">
+                hello literally everyone
+              </p>
+              <div
+                class="flex items-center gap-x-[50px] text-[#6E767D] font-[300] text-[13px]"
+              >
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Reply.svg" alt="" />
+                  </figure>
+                  <span>57</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/Retweet.svg" alt="" />
+                  </figure>
+                  <span>144</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                    <img class="size-[20px]" src="./img/React.svg" alt="" />
+                  </figure>
+                  <span>184</span>
+                </div>
+                <div class="flex items-center gap-x-[20px]">
+                  <figure class="size-[34px] p-[7px]">
+                      <img class="size-[20px]" src="./img/Share.svg" alt="" />
+                    </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+      <aside class="ml-[30px]">
+        <div class="bg-[#202327] p-[12px] mt-[6px] rounded-[42px] w-[350px] flex items-center gap-x-[24px] mb-[12px]">
+            <i class="fa-solid fa-magnifying-glass text-[18px] text-[#6E767D]"></i>
+            <input class="bg-transparent text-[#6E767D] text-[15px] font-[400] " type="text" placeholder="Serach Twitter">
+        </div>
+        <div class="bg-[#202327] p-[12px_16px] rounded-[15px] mb-[16px]">
+            <div class="flex items-center justify-between mb-[12px] ">
+                <p class="font-bold text-[19px]">Trends for you</p>
+                <figure class="size-[20px]">
+                    <img class="size-full object-cover" src="./img/Settings.svg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure class="flex items-center justify-between">
+                    <p class="font-[400] text-[13px] mb-[4px] text-[#6E767D]">Trending in Turkey</p>
+                    <img class="size-[20px]" src="./img/More-2.svg" alt="">
+                </figure>
+                <span class="font-bold text-[15px]">#SQUID</span>
+                <p class="font-[400] text-[13px] text-[#6E767D]">2,066 Tweets</p>
+            </div>
+            <div class="flex items-center justify-between mb-[12px] ">
+
+            </div>
+            <div>
+                <figure class="flex items-center justify-between">
+                    <p class="font-[400] text-[13px] mb-[4px] text-[#6E767D]">Trending in Turkey</p>
+                    <img class="size-[20px]" src="./img/More-2.svg" alt="">
+                </figure>
+                <span class="font-bold text-[15px]">#SQUID</span>
+                <p class="font-[400] text-[13px] text-[#6E767D]">2,066 Tweets</p>
+            </div>
+            <div class="flex items-center justify-between mb-[12px] ">
+                
+            </div>
+            <div>
+                <figure class="flex items-center justify-between">
+                    <p class="font-[400] text-[13px] mb-[4px] text-[#6E767D]">Trending in Turkey</p>
+                    <img class="size-[20px]" src="./img/More-2.svg" alt="">
+                </figure>
+                <span class="font-bold text-[15px]">#SQUID</span>
+                <p class="font-[400] text-[13px] text-[#6E767D]">2,066 Tweets</p>
+            </div>
+            <div class="flex items-center justify-between mb-[12px] ">
+                
+            </div>
+            <div>
+                <figure class="flex items-center justify-between">
+                    <p class="font-[400] text-[13px] mb-[4px] text-[#6E767D]">Trending in Turkey</p>
+                    <img class="size-[20px]" src="./img/More-2.svg" alt="">
+                </figure>
+                <span class="font-bold text-[15px]">#SQUID</span>
+                <p class="font-[400] text-[13px] text-[#6E767D]">2,066 Tweets</p>
+            </div>
+            <h3 class="text-[#1D9BF0] my-[16px] font-bold text-[15px]">Show more</h3>
+        </div>
+        <div class="bg-[#202327] p-[12px_16px] rounded-[15px] mb-[16px]">
+            <h3 class="font-bold text-[19px] mb-[12px]">Who to follow</h3>
+            <div class="flex items-center whitespace-nowrap gap-x-[15px] mb-[17px]">
+                <figure class="size-[48px]">
+                    <img class="size-full object-cover rounded-full" src="https://s3-alpha-sig.figma.com/img/4f06/a16a/c1cdbe6b530999d2dc7ebcc3d95d6cf1?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R2shtG4-ZBBCuCqa~5WRwGlBRiFKb4NidrkJTY9g1Ry9SgRTeTM~m6XcOcFoKoZ7vNB6Pec9O~Ig3biqL6PDtRqpnxiuUkt7P4mpAfqcnWXs27hWJmBradeNPcSXZIKpjx3EDh80n0GlmQ3QAFXebMUeKROysrTlSGI1zqvXH-hl8c1vogYie5Zw~K9YFpeKoYGM9oRyIS~7QiKoEpgGaIsJ~lQGT5OWL6Qe36K76isnWSjfynMKM~6eMnr1DIx8MurPbdWSRZGEwmGt7cmFou3xuQavY0E667hYaaBJVhnPg7RKqV2ovEwvArCobGozu64FZdQQa62so7nxXewLEw__" alt="">
+                </figure>
+                <div>
+                    <span class="text-[15px] pr-[4px]">The New York Times</span>
+                    <i class="fa-solid fa-circle-check size-[20px]"></i>
+                    <p class="font-[300] text-[15px] text-[#6E767D]">@nytimes</p>
+                </div>
+                <div >
+                    <button class="bg-[#EFF3F4] p-[7px_15px] rounded-[32px] text-[#0F1419] text-[14px]">Follow</button>
+                </div>
+            </div>
+            <div class="flex items-center whitespace-nowrap gap-x-[14px] mb-[17px]">
+                <figure class="size-[48px]">
+                    <img class="size-full object-cover rounded-full" src="https://s3-alpha-sig.figma.com/img/4a83/e3af/cc0254938a0f98dd14b210b1493f71c5?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QemOxfA0ylaz9DsoqLpuudG9rvkiwD09WafifbISEgZ4n2uLmkJ2z58Kbgv~RZsNXsbOxJ1rOSuAJ8MARnHlIGnHr9rD2xcNtckCBQmLcznkk2QseZASwEL9EMFq0UuzkRoPEw9--P4hdr92pAc5d2Kn4lLHzc9qr4iqYcCqeH0PD0ZrGokEbR07ia37KiKApjVhhTCkhEuWB9l1L2RC1sKmhoivzd23fRBtx5v3XU~944sAE-BhXSzVYm7NI5RvuBEpJ7S48MK9ad8IzX1N78L50p~da6UNOkc1IsB2ktOoJDvL78oiJ-dD4oxHSqpmWiBYHDpr-hD9X5Cl1ZyxiQ__" alt="">
+                </figure>
+                <div>
+                    <span class="text-[15px] pr-[4px]">CNN</span>
+                    <i class="fa-solid fa-circle-check size-[20px]"></i>
+                    <p class="font-[300] text-[15px] text-[#6E767D]">@CNN</p>
+                </div>
+                <div class="ml-[35%]">
+                    <button class="bg-[#EFF3F4] p-[7px_15px] rounded-[32px] text-[#0F1419] text-[14px]">Follow</button>
+                </div>
+            </div>
+            <div class="flex items-center whitespace-nowrap gap-x-[14px] mb-[17px]">
+                <figure class="size-[48px]">
+                    <img class="size-full object-cover rounded-full" src="https://s3-alpha-sig.figma.com/img/a377/0904/9243261c9d3d1fa6dead9bc132ea171f?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gkCyHQRHto3bevL0WJX-hbi7t7xzEDsfxXTnS0~nTJmaj8vH-sn~kmzVLIrgDeKYh9TlECficfAehk2bV3qjRxp7WKBIJSgtLEg2h8KgrawasEzn638jS86rS~o39gZpLqqtaxPMs0~KHZWyiGK3d59mUwUXU95oQeARvdaR21YrruM3Z6TRviq1eDVal79P4G~PzLjHowSLelDbsedHCtwy1DB6PpzDZQI2bP15mOPrdV3wVo5SQca~rsNcbpBUnyWhgEllAKWhapkeu6AgZKy13WUf432ARljrZlI-BbMF2Llj9H3JY0oXPzw-eKPunSEjk3qY-MDUY~l9BS2lpg__" alt="">
+                </figure>
+                <div>
+                    <span class="text-[15px] pr-[4px]">Twitter</span>
+                    <i class="fa-solid fa-circle-check size-[20px]"></i>
+                    <p class="font-[300] text-[15px] text-[#6E767D]">@Twitter</p>
+                </div>
+                <div class="ml-[30%]">
+                    <button class="bg-[#EFF3F4] p-[7px_15px] rounded-[32px] text-[#0F1419] text-[14px]">Follow</button>
+                </div>
+            </div>
+            <p class="text-[#1D9BF0] my-[16px] font-bold text-[15px]">Show more</p>
+        </div>
+        <div class="font-[300] text-[13px] text-[#60676D] text-center">
+            <p>
+            <span>Terms of Service</span>
+            <span>Privacy Policy</span>
+            <span>Cookie Policy</span>
+            </p>
+            <span>Imprint</span>
+            <span>Ads info</span>
+            <span>More ...</span>
+            <span>© 2021 Twitter, Inc.</span>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
